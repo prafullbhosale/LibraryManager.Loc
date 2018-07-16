@@ -47,11 +47,11 @@
           <target state="new">Add a library definition to the LibMan.json file, and download the library to the specified location</target>
         </trans-unit>
         <trans-unit id="InstallCommandExamples" translate="yes" xml:space="preserve">
-          <source>    libman install jquery@3.2.1 
-    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js 
+          <source>    libman install jquery@3.2.1
+    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js
     libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</source>
-          <target state="new">    libman install jquery@3.2.1 
-    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js 
+          <target state="new">    libman install jquery@3.2.1
+    libman install jquery --provider cdnjs --destination wwwroot\scripts\jquery --files jquery.min.js
     libman install myCalendar --provider filesystem --files calendar.js --files calendar.css</target>
         </trans-unit>
         <trans-unit id="InstallCommandLibraryIdArgumentDesc" translate="yes" xml:space="preserve">
@@ -227,13 +227,13 @@
           <target state="new">Updates the specified library</target>
         </trans-unit>
         <trans-unit id="UpdateCommandExamples" translate="yes" xml:space="preserve">
-          <source>    libman update jquery 
+          <source>    libman update jquery
     libman update jquery --to 3.3.1
-    libman update jquery -pre 
+    libman update jquery -pre
 </source>
-          <target state="new">    libman update jquery 
+          <target state="new">    libman update jquery
     libman update jquery --to 3.3.1
-    libman update jquery -pre 
+    libman update jquery -pre
 </target>
         </trans-unit>
         <trans-unit id="UpdateCommandRemarks" translate="yes" xml:space="preserve">
